@@ -1,0 +1,767 @@
+﻿PAGES: 6
+--- PAGE 1 ---
+ 
+AI-Powered Personalized Financial Advisor: 
+Empowering Smarter Financial Decisions 
+ 
+ 
+T.Sasikala 
+CSE (Data Science) 
+New Horizon College of 
+Engineering, Bangalore 
+nhce.sasikala@gmail.com 
+J. Joshua Daniel Raj 
+CSE (Data Science) 
+New Horizon College of 
+Engineering, Bangalore 
+joshuadanielraj4research@gmail.com 
+Khushi Shrimali 
+CSE (Data Science) 
+New Horizon College of 
+Engineering, Bangalore 
+khushi.shrimali.blr@gmail.com 
+ 
+Kiran Kumar A 
+CSE (Data Science) 
+New Horizon College of 
+Engineering, Bangalore 
+appojikirankumar@gmail.com 
+ 
+Lahitha Naidu Ankem 
+CSE (Data Science) 
+New Horizon College of 
+Engineering, Bangalore 
+alahitha@gmail.com 
+ 
+Shreya C S 
+CSE (Data Science) 
+New Horizon College of 
+Engineering, Bangalore 
+saishreya2608@gmail.com 
+ 
+ 
+Abstract- AI-Fin Advisor is an artificial intelligence supported 
+web application that helps a user to make smarter financial 
+decisions by providing customized recommendations for 
+investment strategies, budgeting, debt management, and long-
+term wealth planning by analysing users income, expenditure, 
+spending habits, savings, and financial goals. Natural 
+Language processing, Machine Learning, and data analytics 
+are used to provide insights and further decision-making 
+tailored to each users unique financial situations. The 
+application also provides additional features like real time 
+financial news updates, an interactive financial literacy 
+module which enhances users knowledge, financial calculators, 
+stock analyser and a conversational chat bot to provide 
+immediate responses. The system is developed by using React-
+based frontend and a Flask backend, incorporating MongoDB, 
+machine learning models, and external financial APIs.Unlike 
+the traditional financial advisors which are costly or not 
+customized to users preferences, this solution provides real-
+time 
+support 
+that 
+changes 
+based 
+on 
+the 
+financial 
+circumstances. This research assists in offering financial 
+advice that lends a hand for users to make data-driven 
+financial advice despite their economic status or financial 
+expertise. 
+ 
+KEYWORDS: 
+Financial 
+Literacy, 
+Artificial 
+Intelligence, 
+Machine Learning, Natural Language Processing, Personalized 
+Recommendations, Financial Planning, Robo- Advisory 
+ 
+I INTRODUCTION 
+Many individuals lack of access to financial advisor due to 
+high costs, limited financial literacy, often resulting in poor 
+money management and inadequate long-term financial 
+stability. Furthermore, users financial data is frequently 
+scattered across multiple applications and making it difficult 
+to control savings, investments, and debt effectively. In 
+todayΓÇÖs increasing financial world, while many financial 
+tools exist, most of them fail to provide individualized 
+results, predictive insights, and integration with educational 
+resources, leaving users without actionable metrics. There is 
+a need for extensive, intelligent, and user favored financial 
+advisory system. 
+This research presents AI-FinAdvisor, an AI-powered 
+personalized financial advisor designed to aid users with 
+data-driven financial insights which significantly enhance 
+financial literacy. AI-FinAdvisor leverages natural language 
+processing using Ollama, statistical models and machine 
+learning 
+algorithms 
+to 
+provide 
+individualized 
+recommendations to each financial profiles. By analyzing 
+expenses, income, historical data, technical indicators, and 
+predictive models, the platform AI-FinAdvisor, supports 
+real-time stock trend forecasting and portfolio optimization 
+, guiding informed investment decisions to user. 
+Beyond predictive analytics, AI-FinAdvisor also integrates 
+financial educational content through video lectures, QNAs 
+and a real-time RAG-based chatbot to interactively guide 
+users. Privacy and Security aspects are ensured through AES 
+encryption, 
+SSL 
+communication 
+and 
+bcrypt-based 
+authentication, maintaining robust locked of sensitive 
+financial data. 
+By combining 
+secure data engineering, predictive 
+analytics, AI and data engineering, AI-FinAdvisor bridges 
+the gap between financial knowledge, practical decision- 
+making, offering a scalable, intelligent resolution that makes 
+personalized financial guidance accessible, actionable, and 
+user-centric. 
+II RELATED WORKS 
+The use of AI in personal finance management systems has 
+facilitated 
+more 
+personalized 
+financial 
+suggestions, 
+projections, and engagement over time. Recent research 
+Proceedings of the 5th International Conference on Ubiquitous Computing and Intelligent Information Systems (ICUIS-2025)
+IEEE Xplore Part Number: CFP25UG3-ART; ISBN: 979-8-3315-5284-8
+979-8-3315-5284-8/25/$31.00 ┬⌐2025 IEEE
+1493
+2025 5th International Conference on Ubiquitous Computing and Intelligent Information Systems (ICUIS) | 979-8-3315-5284-8/25/$31.00 ┬⌐2025 IEEE | DOI: 10.1109/ICUIS67429.2025.11380689
+Authorized licensed use limited to: ANURAG GROUP OF INSTITUTIONS. Downloaded on August 06,2026 at 15:03:10 UTC from IEEE Xplore.  Restrictions apply. 
+
+--- PAGE 2 ---
+provides evidence as to how AI modeling, machine learning, 
+and natural language processing make financial decision- 
+making processes, as well as advisory automation and 
+customization, more streamlined. 
+A. Automated Advisory Systems & Financial Literacy 
+The research from [1] studies how personal finance 
+transforming with machine learning , predictive analysis and 
+natural language processing to assess income vs expenses vs 
+savings for critical recommendations at all times. In the 
+same vein, [2] presents Money Map, a personal finance 
+tracking system for appropriate investments that champions 
+smart expense tracking with impressive dashboards. It 
+champions multilinguality with personalized finance based 
+specific suggestions for inclusivity and comprehensive 
+participation. The impact of financial literacy on financial 
+well-being is studied in [3], emphasizing a mediating factor 
+of personal finance management over how personally 
+literate people will have better finances relative to people 
+who are less literate. The authors of [4] expand on this with 
+the GETU model-a policy consideration that champions 
+financial literacy via government involvement, education 
+efforts, training, and upskilling. [5] presents an AI-driven 
+assistant for personal finance management for better 
+financial literacy through natural language processes and 
+understanding user feedback, while [6] emphasizes an AI- 
+driven transformational personal finance advisory system 
+for personalized-scale unique finance advice. 
+B. Machine Learning for Financial Forecasting and 
+Decision Support 
+The study from [7] presents a flexible and adaptable 
+hierarchical software architecture for machine learning in 
+individual finance planning, introducing sub-structures for 
+data 
+collection, 
+storage, 
+learning 
+and 
+application 
+visualization. Likewise, [8] champions how machine 
+learning can support corporate financial forecasting and 
+analysis while also criticizing machine learning in resource 
+allocation for improvements during the capital budgeting 
+process; Double Machine Learning(DML) is recommended 
+as a framework to bolster substance to prior findings. 
+In [9], the authors integrates sentiment analysis of financial 
+news and social media with conformist ML models for 
+market trend prediction, achieving 98.9% accuracy using 
+98.4% using SVM and logistic regression . Another study 
+[10] tells about usage of FacebookΓÇÖs Prophet model to 
+forecast stock prices, allowing investors to make more well- 
+versed and accurate trading verdicts. 
+The authors in [11] design an AI-based Decision Support 
+System 
+(DSS) 
+for 
+optimizing 
+personal 
+financial 
+management. It integrates AI algorithms in the workflows 
+for decision making, which significantly 
+improves 
+budgeting, expenditure control and investment while 
+maintaining data privacy. 
+C. LLM and RAG-Based Conversational Financial 
+Systems 
+Recent improvements in integrate Large Language Models 
+(LLMs) and Retrieval-Augmented Generation (RAG) to 
+enhance intelligent financial conversation. Paper [12] 
+introduces QBot, a domain-specific chatbot uses vector 
+embeddings and RAG pipelines to provide precise, context- 
+aware replies. Correspondingly, [13] presents a Generative 
+AI-powered financial advisory system combined with 
+chatbot boundaries to deliver individualized and engaging 
+advisory experiences. 
+The research in [14] inherits RAG capabilities by combining 
+multimodal data (video,text, document) through LLaMA3 
+framework, 
+enlightening 
+interaction 
+flexibility 
+and 
+understanding. Further, [15] smears RAG-LLMs to 
+enhancing adaptability, financial risk management, and 
+reliability by incorporating instantaneous market and 
+sentimentality data. 
+Paper [16] advances a robo-advisory framework combining 
+inverse 
+optimization 
+with 
+deep 
+understanding 
+of 
+reinforcement learning, allows AI to optimize portfolios by 
+balancing risks vigorously. Study [17] explores trust 
+dynamics in AI-driven retail financial investment services, 
+which emphasizes the reputation of transparency and user 
+assurance in automated advisory platforms. 
+D. Ethical, Privacy, and Societal Implications in AI 
+Finance 
+Ethical and data confidentiality issues in economic 
+technology are spoken in [18], which highlights fairness, 
+transparency, and accountability via explainable AI and bias- 
+mitigation approaches. The highlights in [19] enhances this 
+by offering intelligent algorithms for financial data privacy 
+fortification and risk prediction using federated learning, 
+allowing collaborative model learning among banks without 
+data leak. 
+In [20], the authors analyze how financial literacy influences 
+college studentΓÇÖs digital risk aversion and online financial 
+security behaviors. Their conclusions reveals that higher 
+financial awareness associates absolutely with alert online 
+decision-making and security aware behavior. 
+Collectively, these studies highlights, that collaborating AI 
+and ML into finance weights ethical, secure, and transparent 
+frameworks that rank user trust, knowledge, and financial 
+inclusion. 
+III SYSTEM OVERVIEW AND ARCHITECTURE 
+ 
+The proposed Ai-Fin Advisor follows three layer 
+architecture consisting of frontend, backend, data intelligent 
+layer. The frontend is where users input their financial data, 
+track progress and receive personalized insights in an 
+interactive interface. The backend is built with flask, which 
+handles data management and facilitates communication 
+between frontend, database and external API. The data 
+intelligence layer is where all analysis and computations are 
+done using AI models for financial advice, MongoDB for 
+secure data storage and tools like recommendation module 
+and stock analyzer to deliver insights. 
+Proceedings of the 5th International Conference on Ubiquitous Computing and Intelligent Information Systems (ICUIS-2025)
+IEEE Xplore Part Number: CFP25UG3-ART; ISBN: 979-8-3315-5284-8
+979-8-3315-5284-8/25/$31.00 ┬⌐2025 IEEE
+1494
+Authorized licensed use limited to: ANURAG GROUP OF INSTITUTIONS. Downloaded on August 06,2026 at 15:03:10 UTC from IEEE Xplore.  Restrictions apply. 
+
+--- PAGE 3 ---
+IV METHODOLOGY 
+A. AI Chatbot 
+ 
+The Ai Chatbot system retrieves the data from MongoDb, 
+where the users data is stored in an organised manner. It uses 
+optimal queries to gather necessary data and feeds users 
+historical data to the machine learning pipeline to find 
+correlation and patterns. It interprets the query and generates 
+text in human understandable language. It uses LLaMA3 
+model for the text generation. It also leverages NLP, the 
+chatbot to forecast the future expenses or answer financial 
+related queries and is also used in enhancing financial 
+literacy. 
+ 
+ 
+Fig. 1 Architecture of AI-Fin Advisor 
+ 
+ 
+As displayed in the fig. 1, we can see that the system 
+architecture comprises of different modules as the following. 
+A. User Data Input Module 
+Users will provide relevant information about their finances 
+including their assets(cash, real estate, gold, bonds), 
+debts(credit card, student loans, personal loans), goals(short 
+term and long term) and transactions (income, expenses, 
+investments). The users are given an option to upload their 
+monthly transactions file instead of manually entering the 
+transactions. This data will be used to generate personalised 
+recommendations and inform financial decisions. It uses an 
+unstructured database, MongoDB, in order to store the users 
+data. 
+B. Data Security 
+ 
+Since Ai-FinAdvisor deals with users sensitive data, it is 
+very crucial that the system maintains data integrity and 
+security. Multi factor authentication is achieved through 
+email-based One-Time Passwords (OTP), with the SMTP 
+protocol that facilitates automated OTP delivery. In order to 
+securely save users credentials Bcrypt method is used for 
+password hashing which adds unique salts to each 
+password. The users data is securely stored by using the 
+Fernet function in pythonΓÇÖs cryptography library which 
+allows encryption during storage and decryption when 
+required. 
+C. External Tools and Libraries 
+The proposed system integrates several external tools and 
+libraries to enhance its functionalities. In the Stock Analyzer 
+module, it utilizes Stooq API to fetch real time stock data 
+while MFtool API is used to retrieve mutual fund 
+information. The money matters provides the user with up- 
+to-date financial related news and market updates by using 
+the NewsAPI application. The financial literacy module 
+incorporates resources from YouTube videos or publicly 
+available documents. 
+B. Recommendations module 
+ 
+This module provides the financial suggestion system which 
+incorporates both rule based and AI-driven insights to offer 
+customized advice based on the user's financial data. It 
+collects transactional, asset, debt and goals data of the users 
+data by safely decrypting it and stores it in a structured 
+dataframe and identifies spending patterns, category 
+breakdowns using linear regression. In the rule based system 
+it analyses debt and asset information. It produces reliable 
+proposals such as giving importance to high interest debt 
+payments, suggesting goal funding targets based on 
+timelines. 
+ 
+C. Financial Literacy 
+ 
+This feature aims to educate the users about fundamentals of 
+personal financial concepts along with the systems advisory 
+features. The content is selected from trustworthy sources 
+such as government portals, financial blogs, and YouTube 
+videos. Topics are arranged according to the skill level 
+(Beginner, Intermediate, Advanced) and stored in a database 
+along with the metadata (title, tags, difficulty, quiz links). It 
+also keeps track of the users learning progress. The 
+application displays an interactive dashboard where user can 
+browse topics, read or watch embedded videos, and take 
+quizzes to reinforce learning. Chatbot is also there to assist 
+by clarifying doubts. 
+ 
+ 
+V  ALGORITHMS 
+A. Transactions File upload and categorization 
+Instead of manually entering the daily income and expenses 
+regularly the system provides a feature of uploading 
+transaction files in formats like CSV, TXT or Google Pay 
+statements. The data is first cleaned by using regular 
+expressions and customised functions. It is used to retrieve 
+useful information like date, amount and description. Each 
+transaction row is then automatically categorized using rule- 
+based keyword matching and pattern recognition, assigning 
+categories such as food, utilities, entertainment, transport, or 
+savings. The users sensitive information such as amount, 
+notes and date are encrypted using fernet before storage in 
+MongoDB maintaining user privacy. 
+Proceedings of the 5th International Conference on Ubiquitous Computing and Intelligent Information Systems (ICUIS-2025)
+IEEE Xplore Part Number: CFP25UG3-ART; ISBN: 979-8-3315-5284-8
+979-8-3315-5284-8/25/$31.00 ┬⌐2025 IEEE
+1495
+Authorized licensed use limited to: ANURAG GROUP OF INSTITUTIONS. Downloaded on August 06,2026 at 15:03:10 UTC from IEEE Xplore.  Restrictions apply. 
+
+--- PAGE 4 ---
+r 
+B. Rule-Based Recommendation Engine 
+This algorithm relies on calculations or a set of pre-defined 
+rules instead of machine learning. The calculator module 
+computes loan EMIs, SIP maturity values, SWP 
+withdrawals, or FIRE numbers using existing equations. 
+ 
+(i) EMI (Equated Monthly Installment): 
+ 
+P x R x(1 + R)N 
+three models based on their R┬▓ scores to improve 
+generalization. Hyperparameters for each model are 
+optimized through cross-validation to ensure stable and 
+accurate price forecasting. 
+VI RESULTS ANALYSIS 
+Most of the financial advisory systems often rely on users to 
+input 
+data 
+manually, 
+have 
+limited 
+degrees 
+of 
+personalization, and lack AI features and insight generation. 
+EMI = 
+ 
+ 
+(1 + R)N ΓêÆ 1 
+Prior work has tended to be either focused on expense 
+Where P = principal loan amount, R = monthly interest 
+rate, and N = number of monthly installments. 
+ 
+(ii) SIP (Systematic Investment Plan) Maturity Value: 
+tracking or financial planning and does not provide a unified 
+intelligent solution. This work and project addresses the gap 
+by providing an avenue for the automated upload of 
+transactions, thus reducing the time needed to enter 
+transactions manually by at least 85%, while also offering 
+r nt 
+A = P x 
+(1 + n) 
+n 
+r 
+x (1 + ) 
+n 
+AI categorizations at approximately 90% accuracy, which is 
+far superior to basic rule gaming categorization. To provide 
+insight related to user predictions, the predictive modules 
+incorporated in the system demonstrate good overall 
+correlational trends forecast (R┬▓ =0.83, MAPE=17%) 
+Where A= Amount, P = Monthly investment, r = 
+Annual rate of return, n = Compounding 
+frequency (usually 12 months), t = Investment 
+duration in years 
+ 
+ 
+C. Large Language Model Integration and Fine Tuning 
+The 
+system 
+integrates 
+with 
+Retrieval-Augmented 
+Generation (RAG) framework with fine-tuning of a large 
+language model to deliver high personalisation and 
+grounded financial advice. The raw data is decrypted and 
+fetched to the system. This data is enriched and then it is 
+passed to a fine-tuned LLaMA-3 model which is used for 
+generating text and has been adapted using anonymized 
+profiles and expert-curated recommendations. By using the 
+blend of both the system is able to handle analytical 
+questions like ΓÇ£When can I retire?ΓÇ¥, or ΓÇ£Predict my next 
+monthΓÇÖs expenses.ΓÇ¥. 
+ 
+D. Machine learning Algorithms for Stock Analyser 
+The stock analyser module includes the price prediction of 
+stock and mutual funds that takes systematic data-driven 
+modeling using multiple machine learning algorithms. The 
+historical data is collected from Stooq (for stocks) and 
+MFAPI (for mutual funds). The raw data is preprocessed 
+which includes cleaning, handling missing values, and 
+feature scaling using MinMaxScaler. Feature engineering 
+generates indicators such as Simple Moving Average (SMA), 
+Exponential Moving Average (EMA), Moving Average 
+Convergence Divergence (MACD), Relative Strength Index 
+(RSI), Bollinger Bands, lagged features, and volatility 
+measures.Various 
+machine 
+learning 
+algorithms 
+are 
+implemented that includes Linear Regression, Random 
+Forest, Gradient boosting regressor and enhanced XGBoot. 
+These models are trained by 80% of the historic data and 
+the remaining 20 % is used for testing. A weighted ensemble 
+model is constructed by combining predictions from the top 
+allowing for better user financial projections and decisions 
+regarding investment and saving. More accurate, higher- 
+quality forecasting modules then lead to improved user 
+decision making and participation through interactive 
+dashboards, effective goals based planning, and real-time 
+recommendations in providing engagement, awareness, and 
+efficiency. All together the predictive modules demonstrated 
+summary improvements in terms of accuracy, user decisions 
+and financial decision making providing some meaningful 
+diagnostics of gaps demonstrated by previous work. 
+VII OUTCOMES 
+A. Stock Analyser Module 
+ 
+It asks the user to input the preferred stock ticker name and 
+the time duration to analyse the performance history of the 
+stock. 
+ 
+Model 
+R┬▓ 
+Score 
+RMSE 
+Accuracy 
+MAPE 
+Ensemble 
+(Top 3) 
+- 
+4.3618 
+0.3171 
+76.17% 
+23.83% 
+Gradient 
+Boosting 
+- 
+1.7467 
+0.227 
+83.03% 
+16.97% 
+Linear 
+Regression 
+1 
+0 
+100.00% 
+0.00% 
+Random 
+Forest 
+- 
+1.8905 
+0.2329 
+82.42% 
+17.58% 
+XGBoost 
+(Enhanced) 
+- 
+1.9751 
+0.2362 
+82.34% 
+17.66% 
+Table 1 Model performance of various algorithms 
+Proceedings of the 5th International Conference on Ubiquitous Computing and Intelligent Information Systems (ICUIS-2025)
+IEEE Xplore Part Number: CFP25UG3-ART; ISBN: 979-8-3315-5284-8
+979-8-3315-5284-8/25/$31.00 ┬⌐2025 IEEE
+1496
+Authorized licensed use limited to: ANURAG GROUP OF INSTITUTIONS. Downloaded on August 06,2026 at 15:03:10 UTC from IEEE Xplore.  Restrictions apply. 
+
+--- PAGE 5 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig. 2 Output of Netflix stock price prediction 
+ 
+The stock price prediction of Netflix for 30 days is displayed 
+in Fig.2. In order to increase the prediction accuracy the 
+model applied, consists of historical price data, Moving 
+Averages and technical indicators, such as Relative Strength 
+Index (RSI). The models that were tested included; Linear 
+Regression, Random Forest, Gradient Boosting, XGBoost, 
+and an ensemble of the top three models. From the prediction 
+in Table 1, Gradient Boosting yielded the highest predictive 
+accuracy of 83.03% with a low MAPE (Mean Absolute 
+Percentage Error) of 16.97%. The Ensemble approach also 
+demonstrated comparable performance when weighing our 
+results against the models individually. Linear Regression 
+showed 100% accuracy on training data but appears to 
+overfit the training data and may fail to generalize in the 
+future. Random Forest and XGBoost also met the 
+prediction accuracy criteria, yielding over 82% accuracy. 
+Overall these results indicate that forecasting using a 
+machine learning approach is effective in attempting to 
+predict stock price trends over a short period, and therefore 
+would be useful in regards to any investment or portfolio 
+management considerations. 
+ 
+ 
+B. Financial Literacy Module 
+ 
+Fig. 3 Financial literacy demonstration 
+The Fig. 3 shows a overview of the financial literacy 
+module in the AiFin Advisor application that presents 
+the users with structured and interactive modules to 
+improve their financial knowledge. The interface ensures 
+adapting learning by classifying educational content into 
+Beginner, Intermediate, and Advanced levels. Each content 
+includes concise educational material either in video or 
+document form and a quiz-based evaluation system. The 
+users progress is also monitored and stored in the database. 
+A real-time AI powered Chatbot is also integrated to the 
+system which enables the user to ask financial related 
+queries and receive immediate response. 
+VIII CONCLUSION AND FUTURE WORK 
+ 
+The AI-FinAdvisor introduces an intelligent approach to 
+enhance users for managing and optimizing their personal 
+finances with integration of ML algorithms, statistical 
+methods and domain specific natural language processing 
+through ollama for adapted recommendations. It provides 
+prediction and portfolio optimization by analyzing user 
+financial data and also provides users to improve their 
+financial literacy through video lectures and quizzes. It 
+screens technical pointers for real time market data to 
+provide further insights. It guarantees data security by using 
+AES for encrypting data and uses bcrypt method for secure 
+authentication and SSL for communication. This study 
+shows the potential of combining AI, finance and secure data 
+engineering to help users in making smarter financial 
+decisions. Future improvements could include integrating 
+the system with secure banking APIs that will ensure 
+automatic syncing of userΓÇÖs financial data without manual 
+data entry. The user assignation and accessibility can be 
+improved by incorporating voice-based interactions. 
+Blockchain technology can be involved which will provide 
+vigorous data safety and veracity. An AI-FinAdvisor 
+modified financial advisor that integrates machine learning, 
+natural 
+language 
+processing, 
+and 
+interactive 
+web 
+technologies to improve financial literacy and decision-
+making. 
+REFERENCES 
+[1] Parth Pangavhane; Shivam Kolse; Parimal Avhad; Tushar Gadekar; N. K. 
+Darwante; S. V. Chaudhari ΓÇ£Transforming Finance Through Automation 
+Using AI- Driven Personal Finance AdvisorsΓÇ¥, in 2023 4th International 
+Conference on Computation, Automation and Knowledge Management
+ 
+(ICCAKM), DOI:10.1109/ICCAKM58659.2023.10449538 
+[2] Niharika Shailendra; C Parvathi; Shivangi Gupta; Gk Ravikumar.,"Money 
+Map: The Personal Finance Tracker", IEEE Published in: 2025 International 
+Conference on Knowledge Engineering and Communication Systems 
+(ICKECS),DOI: 10.1109/ICKECS65700.2025.11035699 
+[3] Sonam Rani,"The Impact of Financial Literacy on Financial Well-Being: 
+The Meditational Role of Personal Finance Management",in 2023 6th 
+International Conference on Contemporary Computing and Informatics 
+(IC3I),DOI: 10.1109/IC3I59117.2023.10397970 
+[4] Anjali Mandal, Ashish Saxena, Prabhat Mittal, ΓÇ£Financial literacy and 
+digital product use for financial inclusion: A GETU model to develop 
+financial literacyΓÇ£, 2022 8th International Conference on Advanced 
+Computing and Communication 
+Systems
+ (ICACCS), 
+DOI: 10.1109/ICACCS54159.2022.9784962 
+[5] Visesh Agarwal, Ravi Raj, Nisha Varghese, ΓÇ£An AI- Powered Personal 
+Finance Assistant: Enhancing Financial Literacy and ManagementΓÇ¥ in 
+FOSS Approaches towards Computational Intelligence and Language 
+Technology (FOSS-CIL T24) DOI:10.13140/RG.2.2.10706.57280 
+Proceedings of the 5th International Conference on Ubiquitous Computing and Intelligent Information Systems (ICUIS-2025)
+IEEE Xplore Part Number: CFP25UG3-ART; ISBN: 979-8-3315-5284-8
+979-8-3315-5284-8/25/$31.00 ┬⌐2025 IEEE
+1497
+Authorized licensed use limited to: ANURAG GROUP OF INSTITUTIONS. Downloaded on August 06,2026 at 15:03:10 UTC from IEEE Xplore.  Restrictions apply. 
+
+--- PAGE 6 ---
+[6] Vamsi Teja Mogilipalem, Cheera Rajkumar, Mounika Moparthi, Sai 
+Chakri Vasamsetti, Veeramanickam M.R.M,, ΓÇ£Revolutionizing Personal 
+Finance: AI-Powered Solutions for Financial Advisory TransformationΓÇ£ , 
+2025 International Conference on Data Science and Business Systems 
+(ICDSBS), DOI: 10.1109/ICDSBS63635.2025.11031758 
+[7] Qianwen Bi; Jingpeng Tang; Bradley Van Fleet; Jason Nelson; Ian Beal; 
+Candra Ray ΓÇ£Software Architecture for Machine Learning in Personal 
+Financial PlanningΓÇ¥ in 2020 Intermountain Engineering, Technology and 
+Computing (IETC) DOI: 10.1109/IETC47856.2020.9249171 
+[8] Helmut Wasserbacher, Martin Spindler ΓÇ£Machine learning for financial 
+forecasting, planning and analysis: recent developments and pitfallsΓÇ¥ in 
+Digit Finance 4, 63ΓÇô88 (2022), DOI : DOI:10.1007/s42521-021-00046-2 
+[9] Manan Agrawal; Arindam Mukherjee.,"Predicting Stock Market Trends 
+Using Machine Learning and Sentiment Analysis",Published in: 
+SoutheastCon 2025, DOI: 10.1109/SoutheastCon56624.2025.10971605 
+[10] Ciram Saiktishna; Nalam Sai Venkat Sumanth; Muppavarapu Madhu 
+Sudhan Rao; Thangakumar J, "Historical Analysis and Time Series 
+Forecasting of Stock Market using FB Prophet", 2022 6th International 
+Conference 
+on 
+Intelligent 
+Computing 
+and 
+Control 
+Systems 
+(ICICCS),DOI: 10.1109/ICICCS53718.2022.9788231 
+[11] Sudhanshu Vaduka, Sai Charath Reddy, Hruday Vikas Arikathota, 
+Lohith Konchada, Prasun Chakraborty, and Atri Bandyopadhyay, 
+"Optimizing Personal Finance Management through AI-Driven Decision 
+Support Systems", 2024 IEEE Region 10 Symposium (TENSYMP), 
+DOI: 10.1109/TENSYMP61132.2024.10752249 
+[12] Beyza Belen ─░rican, M├╝sl├╝m Sivri, Vael Kokach, B├╝┼ƒra Koca├º─▒nar, Fatma 
+Patlar Akbulutl,"QBot: Domain-Specific Chatbots with Retrieval-
+Augmented 
+Generation 
+and 
+Vector 
+Embedding 
+for 
+Complex 
+Documentation Queries," in 2024 Innovations in Intelligent Systems and 
+Applications Conference (ASYU), Ankara, Turkiye, 2024, pp. 1-6, doi: 
+10.1109/ASYU62119.2024.10757125. 
+[13] Niorn Suchonwanich, Siranee Nuchitprasitchai, Kanchana Viriyapant, 
+ΓÇ£Enhancing 
+Personalized 
+Financial 
+Advisory 
+Application 
+with 
+Generative AI and Chatbot: A Usability StudyΓÇ¥ 2024 8th International 
+Conference on Information 
+Technology 
+,(InCIT)
+ 
+DOI: 10.1109/InCIT63192.2024.1081064 
+[14] Anjali Patel; Rajpurohit Shivani; N.V. Usha; Shruthiba A, ΓÇ£Enhancing 
+Interactive Querying with a Multimodal RAG System: Integrating Text, 
+Video, and Document Analysis via LLaMA3 ΓÇ£ 2025 International 
+Conference 
+on 
+Emerging 
+Technologies 
+in 
+Computing 
+and 
+Communication (ETCC), DOI: 10.1109/ETCC65847.2025.11108584 
+[15] Jingzhi Xu, ΓÇ£Enhancing Financial Risk Management with Retrieval-
+Augmented Large Language ModelsΓÇ£, 
+2025 4th International 
+Conference on Artificial Intelligence, Internet and Digital Economy 
+(ICAID), DOI: 10.1109/ICAID65275.2025.11034536 
+[16] Haoran Wang; Shi Yu, ΓÇ£Robo-Advising: Enhancing Investment  with  
+Inverse  Optimization  and  Deep ,Reinforcement LearningΓÇ¥ 2021 
+20th IEEE International Conference on Machine Learning and 
+Applications (ICMLA) ,DOI: 10.1109/ICMLA52953.2021.00063 
+[17] Ling Ding; Zhao Zhao; Rhonda N. McEwen "Exploratory Review: Trust 
+Dynamics in AI-Enabled Retail Financial Investment Service" in 2024 
+IEEE International Conference on Consumer Electronics (ICCE) DOI: 
+10.1109/ICCE59016.2024.10444374 
+[18] Maryan Rizinski, Hristijan Peshov, Kostadin Mishev, Lubomir T. 
+Chitkushev, Irena Vodenska, Dimitar Trajanov, ΓÇ£Ethically Responsible 
+Machine Learning in Fintech,ΓÇ¥ IEEE Access (Volume: 10) DOI: 
+10.1109/ACCESS.2022.3202889 
+[19] Shaoli Li, Xinyun Tang, ΓÇ£Application of Intelligent Algorithms in the 
+Construction of Financial Data Privacy Protection and Risk Assessment 
+ModelsΓÇ£, 2024 International Conference on Electronics and Devices, 
+Computational Science 
+(ICEDCS), 
+DOI: 
+10.1109/ICEDCS64328.2024.00175 
+[20] Yueqi Li, Ingrid Fisher, ΓÇ£Digital Financial Literacy, Risk Aversion, and 
+College StudentsΓÇÖ Online Security BehaviorΓÇ¥ 2022 IEEE International 
+Conference 
+on 
+Big 
+Data 
+(Big 
+Data) 
+DOI: 
+10.1109/BigData55660.2022.10020556 
+Proceedings of the 5th International Conference on Ubiquitous Computing and Intelligent Information Systems (ICUIS-2025)
+IEEE Xplore Part Number: CFP25UG3-ART; ISBN: 979-8-3315-5284-8
+979-8-3315-5284-8/25/$31.00 ┬⌐2025 IEEE
+1498
+Authorized licensed use limited to: ANURAG GROUP OF INSTITUTIONS. Downloaded on August 06,2026 at 15:03:10 UTC from IEEE Xplore.  Restrictions apply. 
+

@@ -1,0 +1,461 @@
+﻿PAGES: 4
+--- PAGE 1 ---
+Using Chatbot Technologies to help Individuals
+make Sound Personalized Financial Decisions
+Reshawn Ramjattan
+University of the West Indies
+St. Augustine, Trinidad
+reshawn.ramjattan@gmail.com
+Patrick Hosein
+University of the West Indies
+St. Augustine, Trinidad
+patrick.hosein@sta.uwi.edu
+Nigel Henry
+Arthur Lok Jack Graduate School of Business
+Mount Hope, Trinidad
+nigel.henry@fac.gsb.tt
+AbstractΓÇöThose that struggle with debt and poor ∩¼ünancial
+management can ∩¼ünd many sources of online content to increase
+their ∩¼ünancial literacy. However, consumption of educational
+content often does not translate to behavioural change. Software-
+based on just-in-time education can make use of nudge theory
+and gami∩¼ücation to help increase ∩¼ünancial literacy while also
+in∩¼éuencing positive ∩¼ünancial behaviour. Using chatbot technol-
+ogy as a conversational interface to this educational software
+increases convenience and usability, especially among those that
+struggle with learning to use technology. We present the design
+for a ∩¼ünancial education chatbot that de∩¼ünes core situations for
+providing suggestions and information to users. We also used a
+survey to evaluate its usefulness and found that 82 per cent of
+68 participants consider the chatbot strongly bene∩¼ücial to their
+∩¼ünancial education and behaviour.
+Index TermsΓÇöChatbots, Personal Finance, Education
+I. INTRODUCTION
+Financial literacy and impulsivity have often been tied
+to poor debt management and over-indebtedness [1], [2],
+[3]. Financial literacy can be de∩¼üned as the ability to use
+knowledge and skills to manage ∩¼ünancial resources effectively
+and for a lifetime of ∩¼ünancial well-being [4]. Gaining this
+literacy through education can be a seemingly daunting exer-
+cise, especially to those that are not tech-savvy, since online
+education or assisted ∩¼ünancial management through apps are
+often the most convenient and cost-effective means.
+Chatbot technology has seen success in increasing the ease
+of use of educational software in healthcare [5]. Work in
+[6] also demonstrates the impact of nudges and gami∩¼ücation
+towards encouraging bene∩¼ücial change. We, therefore, believe
+chatbots are a promising way forward for inclusive and effec-
+tive ∩¼ünancial education. This is because, through conversation-
+driven functionality, users can take advantage of the software
+by focusing on what they want to accomplish rather than
+knowing speci∩¼ücally how. Thus, in this paper, we propose the
+design and implementation of a chatbot focused on ∩¼ünancial
+education and assistance.
+The objective of this chatbot is to ∩¼ürst provide basic
+∩¼ünancial assistance by supporting budget management tasks,
+and then use that awareness of the usersΓÇÖ goals and actions to
+provide analytical advice and suggestions in order to increase
+their ∩¼ünancial literacy over time. Understanding where such
+literacy can bene∩¼üt oneΓÇÖs debt management and ∩¼ünancial
+decisions can be woven into this chatbot through its situational
+advice. These high impact situations are de∩¼üned as use cases
+in the chatbotΓÇÖs design.
+The ability of chatbots to be integrated into popular social
+media platforms signi∩¼ücantly increases its convenience as edu-
+cational software. This is because users of those platforms are
+likely already devoting their attention to those apps. Moreover,
+the convenience allows the chatbot to be accessible for in
+the moment decisions, where users are more likely to make
+impulsive ∩¼ünancial mistakes and therefore bene∩¼üt from well-
+timed education.
+Convenient frequent use and in the moment access also
+presents an opportunity for applying nudge theory [7]. Cogni-
+tive biases, such as impulsivity and a lack of self-control, are
+often present in poor ∩¼ünancial decisions [8]. Nudges are well-
+timed optional suggestions that aim to resist those negative
+cognitive biases and encourage actions that progress the user
+towards their set goals. Nudges based on sound mathematics
+can urge them in the direction better suited to their long term
+goals like saving or addressing debt. For example, consider a
+user that is thinking about risking credit card debt for a luxury
+purchase like a smartphone. The short term bene∩¼üt of having
+the device sooner could be blinding them from the additional
+cost of the debt and its interest. Calculating and presenting
+to them how much they can save over time by waiting to use
+savings to purchase the device instead can deter that short-term
+focused behaviour.
+Lastly, gami∩¼ücation can also be used to reinforce positive
+behaviour and support user education [9]. This can be done
+through encouraging streaks of staying within budget, gameful
+tokens as a reward mechanism, completing short quizzes
+that highlight important concepts and introducing friendly
+competition. Chatbots encapsulate these bene∩¼üts in a simple to
+use interface that can make ∩¼ünancial education for our target
+groups accessible, convenient and immediately impactful. Our
+solution de∩¼ünes the core use cases for providing in the moment
+advice. We exemplify its use through a prototype and evaluate
+its usefulness through a survey that displays its functionality.
+II. RELATED WORKS
+A study by Fox et al. reviews the content and impact of
+90 ∩¼ünancial education programmes [10], where one of the
+978-1-6654-4925-0/21/$31.00 ┬⌐2021 IEEE
+2021 IEEE International Humanitarian Technology Conference (IHTC) | 978-1-6654-4925-0/21/$31.00 ┬⌐2021 IEEE | DOI: 10.1109/IHTC53077.2021.9698928
+Authorized licensed use limited to: ANURAG GROUP OF INSTITUTIONS. Downloaded on August 06,2026 at 15:02:52 UTC from IEEE Xplore.  Restrictions apply. 
+
+--- PAGE 2 ---
+three major programme categories was directed at personal
+∩¼ünance topics including budgeting, saving and credit manage-
+ment. The size and scope of these programmes demonstrate
+recognition of ∩¼ünancial educationΓÇÖs value and importance.
+While these broad scope educational programmes are rich in
+content, work by Fernandes et al. shows that the effect of such
+educational interventions has little correlation with changes
+in ∩¼ünancial behaviour [11]. They instead recommend a ΓÇ¥just-
+in-timeΓÇ¥ approach to ∩¼ünancial education. With this approach,
+information is blended with incentives, thus making it easier
+to consider choices and act towards desirable outcomes.
+By also incorporating nudge theory, where optional sug-
+gestions toward good behaviour are made, a solution can not
+only provide education but also positively in∩¼éuence ∩¼ünancial
+behaviour. A review by Damgaard et al. examines the different
+applications of nudge theory to education [12]. These include
+reminders that seek to address attention limitations or short-
+term temptations, as well as informational nudges that increase
+the accessibility of important information. Evidence of nudge
+theoryΓÇÖs impact on behaviour can be seen in its application to
+adult dietary behaviour where it resulted in a 15.3% increase
+in healthier choices [13].
+There is a growing number of educational chatbots in
+different disciplines [14]. This can be attributed to the bene∩¼üts
+of usability and convenience chatbots bring. Past evaluations
+of certain chatbots have shown users were able to reach
+optimum pro∩¼üciency in language-driven tasks after just one
+repetition of use [5]. The ability to integrate these chatbots
+with social media applications like Facebook, Twitter and
+Instagram, increases their accessibility and convenience, which
+are desirable attributes for just-in-time education and nudging.
+Another technique that can take advantage of digital in-
+terfaces in learning is gami∩¼ücation. Gami∩¼ücation has been
+shown to bring motivation and social engagement bene∩¼üts
+to education [15], [16]. It includes features such as reward
+badges, good behaviour streaks and competition among chosen
+friends [17]. These features can further increase the likelihood
+of users consistently learning and improving their ∩¼ünancial
+behaviour.
+III. OBJECTIVES
+This intervention was required in order to assist in stemming
+increasing debt levels. The target bene∩¼üciaries of the proposed
+design are young and low-income adults, regardless of their
+computer literacy levels. The objective of this work is to
+use advances in chatbot technology to facilitate and apply
+a combination of just-in-time education, nudge theory and
+gami∩¼ücation to ∩¼ünancial literacy and behaviour. We expect
+that the proposed design and implementation will make it
+easier and more convenient for the target groups to attain the
+∩¼ünancial education and behavioural change needed to address
+their debt and debt-inducing habits without requiring a large
+upfront dedication of their time.
+Fig. 1. System Architecture
+IV. METHODOLOGY
+Figure 1 show the architectural ∩¼éow of the proposed system.
+GoogleΓÇÖs Dialog Flow service was used as the natural language
+understanding platform. This cloud service was responsible
+for classifying the intent of a userΓÇÖs message and recognizing
+any terms or entities that we deemed important. Our custom
+serverless cloud functions are accessed via API calls and run
+in response to appropriate user intents. These functions are
+responsible for sending and retrieving the needed data from
+the database and returning the text responses to be sent to the
+user. Relevant APIs were also used to integrate the chatbot
+with the Twitter and Facebook social media platforms.
+Messages sent by the user will, through the API of the
+platform used (for example, Messenger), go to the Dialog∩¼éow
+API for classi∩¼ücation. Dialog∩¼éow then triggers relevant cloud
+functions for processing responses, which are sent back to the
+user. A more detailed explanation is included in the illustrative
+example below.
+We made foundational functions for creating and querying
+a budget, adding transaction history items and setting or
+updating budget items via natural language. Building on top
+of those, we also de∩¼üned several key use cases or scenarios
+for providing in the moment information and possibly a nudge
+or suggestion.
+The user goals we aim to support are understanding budget
+management and bridging the gap between long term stability
+and short term decisions. We build on top of the foundational
+functions to provide use cases towards these goals and consider
+this basic ∩¼ünancial assistance that can act as the starting
+point for more advanced and nuanced means of education
+and aid. These use cases were de∩¼üned by consulting relevant
+industry experts in ∩¼ünance, with a priority on debt-inducing
+behaviour scenarios contrary to our user goals. The application
+of gami∩¼ücation is involved in the way the cases are to be
+maintained. For instance, a point-based quanti∩¼ücation of good
+behaviour based on the follow-up actions of users. These
+points can be presented along with a periodic summary of
+user performance and can include an opt-in social competition
+element. The following describes some of the key use cases.
+A. Use Cases
+ΓÇó Luxury Affordability - Estimates how much a luxury
+purchase might exceed the budgeted allowance, as well
+Authorized licensed use limited to: ANURAG GROUP OF INSTITUTIONS. Downloaded on August 06,2026 at 15:02:52 UTC from IEEE Xplore.  Restrictions apply. 
+
+--- PAGE 3 ---
+TABLE I
+EXAMPLE CUSTOMER PROFILE
+Budget Category
+Allocation
+Food
+15%
+Rent
+30%
+Insurance
+8%
+Entertainment & Luxury
+10%
+Transportation / Vehicle Services
+12%
+Health & Personal Expenses
+10%
+Savings
+15%
+as the potential credit card debt interest. Responds with
+whether or not the budget is suf∩¼ücient and if not, includes
+estimated interest on the purchase.
+ΓÇó Budget Tracking - Estimates an ΓÇ£on trackΓÇ¥ limit at a
+given day in the month for a budget category. Responds
+with whether or not the user is within that limit at the
+given time of the month.
+ΓÇó Small Transaction Affordability - Calculates a category
+based allowance for the day using the aforementioned ΓÇ¥on
+trackΓÇ¥ limit for that day. Responds with that category limit
+for the day.
+ΓÇó Loan Affordability - Estimates the duration for someone
+to pay off a loan. Responds with the period as well as
+an estimate on how much the user would spend extra in
+interest versus saving for that duration of time.
+ΓÇó Savings Estimate - Uses average savings and budget
+allotted savings to estimate how much one can save
+in a speci∩¼üed time period. Responds with an estimated
+amount.
+B. Illustrative Example
+To exemplify the process of triggering and interacting with a
+use case, consider the following customer pro∩¼üle and example
+that steps through a use case ∩¼éow. The customer account for
+the example is that of a middle-aged adult with the budget
+allocations described in Table I and a monthly income of
+$2,300.00 USD.
+Savings Estimate: In a situation where a user is deliberating
+or preparing for a large upcoming expense, they may ∩¼ünd it
+useful to estimate the amount they can save in some amount
+of time. This estimate is an important part of planning ahead
+and understanding oneΓÇÖs ∩¼ünancial position in order to avoid
+spontaneous decisions or debt-inducing behaviour.
+Should the user ask the chatbot, ΓÇ£How much can I save
+in 2 months?ΓÇ¥ via Messenger, that message is channelled
+through FacebookΓÇÖs API and goes to the Dialog∩¼éow API for
+intent classi∩¼ücation. Our ΓÇ£savings estimateΓÇ¥ intent classi∩¼üer
+was trained using manually-written variations of that phrase.
+The savings duration is also detected, in this case, as ΓÇ£2
+monthsΓÇ¥.
+Fig. 2. User Perspective of Use Case Example
+TABLE II
+SURVEY USE CASE RATING RESULTS
+Use Case
+Rating
+1
+2
+3
+4
+5
+Luxury Affordability
+7%
+6%
+12%
+32%
+43%
+Budget Tracking
+0%
+3%
+7%
+25%
+65%
+Transaction Affordability
+2%
+3%
+7%
+28%
+60%
+Loan Affordability
+1%
+2%
+6%
+22%
+69%
+Savings Estimate
+0%
+1%
+6%
+21%
+72%
+Dialog∩¼éow sends the identi∩¼üer of the classi∩¼üed intent and
+the duration, along with user ID and any other needed param-
+eters, to our custom cloud webhook function.
+Using the intent given, the appropriate sub-function is called
+with the userΓÇÖs Facebook ID and the time period passed as
+variables. The user ID is used to retrieve budget records,
+budget allocations and recorded transactions. With transaction
+history available, the estimate would be calculated as an aver-
+age of savings from the last 3 months, else it would be their
+income multiplied by their percentage allocated to savings.
+Once calculated, the estimate is returned to Dialog∩¼éow and
+then the user through FacebookΓÇÖs API. The userΓÇÖs perspective
+is shown in Fig. 2. This can also serve as an opportunity to
+recommend areas to increase savings. For example, pointing
+out to a user that they frequently exceed their luxury budget.
+C. Evaluating User Interest & Potential Impact
+In order to gauge the usefulness of these cases as well as
+to collect new suggested cases, we designed a survey. For
+each use case, users were given a description and scenario
+exemplifying its use and were then asked to rate its usefulness.
+We then asked two questions to gauge their interest in using
+such a chatbot and whether or not they think it would be
+bene∩¼ücial to their ∩¼ünancial education and decisions. Lastly,
+we included two open-ended questions on which ∩¼ünancial
+decisions participants deemed as most troublesome and which
+they would most like the support of sound mathematics for.
+The sample size was 68 participants. We used convenience
+sampling and the sample largely matched the demographics
+of the intended target audience, consisting of young and low-
+income adults.
+V. RESULTS AND DISCUSSION
+Table II shows the results of the questions gauging interest
+in the use case example scenarios, where a rating of one means
+Authorized licensed use limited to: ANURAG GROUP OF INSTITUTIONS. Downloaded on August 06,2026 at 15:02:52 UTC from IEEE Xplore.  Restrictions apply. 
+
+--- PAGE 4 ---
+not useful and ∩¼üve means very useful. While most questions
+had a positive response, those that were focused more on
+immediate or regular decisions had a noticeably more positive
+result. We believe these results show that the sample of our
+target groups has a strong inclination towards this type of
+approach to improving their ∩¼ünancial education and behaviour.
+Moreover, the response indicates not only the existence of a
+need but also the belief that the example use cases can be
+a step towards satisfying that need. This notion is supported
+by the positive results to the two questions gauging interest
+and belief in using such a chatbot. When asked if they would
+use such a chatbot, 75% said yes, 21% maybe and 6% no.
+When asked if they think such a chatbot would improve their
+∩¼ünancial education and habits, 83% said yes, 13% maybe and
+4% no.
+The survey also included open-ended questions regarding
+speci∩¼üc ∩¼ünancial decisions participants want the support of
+sound mathematics for or that they speci∩¼ücally want automated
+help with. Upon analyzing the results of the responses we
+found that the most frequent topics mentioned were bud-
+get allotment recommendations, investment education, savings
+opportunity recommendations and assistance with spending
+decisions. The speci∩¼üc requests within open-ended responses
+align with our goal and support the idea that those struggling
+with their ∩¼ünancial literacy and decisions want convenient and
+impactful help.
+One of the major ∩¼éaws with our methodology is the at-
+tachment of social platforms like Facebook Messenger which
+may bring concerns around data privacy for personal ∩¼ünancial
+information. This was kept in mind during the design of the
+system, the social platform and its API intermediates messages
+between the user and the rest of the system in a loosely coupled
+fashion. So, it can be replaced by any other messaging service
+or custom trusted solution.
+As the use cases and supported functionality of the system
+grows, suitable work must be done in tandem to ensure the
+usability and quality of user onboarding for the service is
+maintained over time. This can be done through an accessible
+catalogue of supported features while highly prioritizing the
+most effective and important features to new users.
+A key aspect of the chatbotΓÇÖs evaluation missing from the
+survey is a review of hands-on use. Considering the importance
+of user-friendliness to the adoption of such a tool, a critical
+component of future work revolves around the thorough testing
+of a distributable prototype.
+This tool has the potential to greatly contribute to inclusive
+and equal access to quality education. Therefore, another
+important route for future work includes the gathering of
+suggestions from more educators and professionals in ∩¼ünance.
+VI. CONCLUSION AND RECOMMENDATIONS
+The importance of ∩¼ünancial literacy is well understood.
+For that education to be effective there must be immediate
+incentives and ties to the daily lives of those that struggle with
+debt and poor ∩¼ünancial decisions. This must be done through
+a means that is also convenient and accessible. Our objective
+was to design and implement an effective solution that can aid
+young, low-income and non-tech savvy adults with ∩¼ünancial
+literacy. WeΓÇÖve presented the use of chatbot technology to
+encapsulate the concepts of just-in-time education, nudge
+theory and gami∩¼ücation to provide impactful in the moment
+∩¼ünancial education. Integrating such a chatbot with social
+media platforms also increases its convenience as the targeted
+users are likely already using them often. The results of our
+survey gauging interest show promising signs of the chatbot
+being able to help meet our objectives.
+This work can be improved upon by the design of budget
+and savings opportunity recommender systems. Furthermore,
+additional cases that cover wider scenarios in areas of ∩¼ünancial
+literacy like loans and investments can be designed. Data from
+the deployment of the chatbot can also be used to model the
+spending behaviour of users which can be used to simulate
+the effect of future educational techniques and nudges.
+REFERENCES
+[1] J. Gathergood, ΓÇ£Self-control, ∩¼ünancial literacy and consumer over-
+indebtedness,ΓÇ¥ Journal of economic psychology, vol. 33, no. 3, pp. 590ΓÇô
+602, 2012.
+[2] V. Bahovec, D. Barbi┬┤c, and I. Pali┬┤c, ΓÇ£Testing the effects of ∩¼ünancial
+literacy on debt behavior of ∩¼ünancial consumers using multivariate
+analysis methods,ΓÇ¥ Croatian Operational Research Review, pp. 361ΓÇô371,
+2015.
+[3] C. Ottaviani and D. Vandone, ΓÇ£Financial literacy, debt burden and
+impulsivity: A mediation analysis,ΓÇ¥ Economic Notes: Review of Banking,
+Finance and Monetary Economics, vol. 47, no. 2-3, pp. 439ΓÇô454, 2018.
+[4] A. Hung, A. M. Parker, and J. Yoong, ΓÇ£De∩¼üning and measuring ∩¼ünancial
+literacy,ΓÇ¥ RAND, 2009.
+[5] S. Holmes, A. Moorhead, R. Bond, H. Zheng, V. Coates, and M. McTear,
+ΓÇ£Usability testing of a healthcare chatbot: Can we use conventional
+methods to assess conversational user interfaces?ΓÇ¥ in Proceedings of the
+31st European Conference on Cognitive Ergonomics, 2019, pp. 207ΓÇô214.
+[6] T. Pospelova et al., ΓÇ£Uncovering nudges in gami∩¼ücation and their
+application in organizational change,ΓÇ¥ 2020.
+[7] C. R. Sunstein and L. A. Reisch, The economics of nudge.
+Routledge,
+2017.
+[8] C. Frydman and C. F. Camerer, ΓÇ£The psychology and neuroscience of
+∩¼ünancial decision making,ΓÇ¥ Trends in cognitive sciences, vol. 20, no. 9,
+pp. 661ΓÇô675, 2016.
+[9] K. Seaborn and D. I. Fels, ΓÇ£Gami∩¼ücation in theory and action: A survey,ΓÇ¥
+International Journal of human-computer studies, vol. 74, pp. 14ΓÇô31,
+2015.
+[10] J. Fox, S. Bartholomae, and J. Lee, ΓÇ£Building the case for ∩¼ünancial
+education,ΓÇ¥ Journal of consumer affairs, vol. 39, no. 1, pp. 195ΓÇô214,
+2005.
+[11] D. Fernandes, J. G. Lynch Jr, and R. G. Netemeyer, ΓÇ£Financial literacy,
+∩¼ünancial education, and downstream ∩¼ünancial behaviors,ΓÇ¥ Management
+Science, vol. 60, no. 8, pp. 1861ΓÇô1883, 2014.
+[12] M. T. Damgaard and H. S. Nielsen, ΓÇ£Nudging in education,ΓÇ¥ Economics
+of Education Review, vol. 64, pp. 313ΓÇô342, 2018.
+[13] A. Arno and S. Thomas, ΓÇ£The ef∩¼ücacy of nudge theory strategies
+in in∩¼éuencing adult dietary behaviour: a systematic review and meta-
+analysis,ΓÇ¥ BMC public health, vol. 16, no. 1, pp. 1ΓÇô11, 2016.
+[14] P. Smutny and P. Schreiberova, ΓÇ£Chatbots for learning: A review
+of educational chatbots for the facebook messenger,ΓÇ¥ Computers &
+Education, vol. 151, p. 103862, 2020.
+[15] D. Dicheva, C. Dichev, G. Agre, and G. Angelova, ΓÇ£Gami∩¼ücation
+in education: A systematic mapping study,ΓÇ¥ Journal of Educational
+Technology & Society, vol. 18, no. 3, pp. 75ΓÇô88, 2015.
+[16] D. Huynh, L. Zuo, and H. Iida, ΓÇ£Analyzing gami∩¼ücation of ΓÇ£duolingoΓÇ¥
+with focus on its course structure,ΓÇ¥ in International Conference on
+Games and Learning Alliance.
+Springer, 2016, pp. 268ΓÇô277.
+[17] J. Pereira and ┬┤O. D┬┤─▒az, ΓÇ£Using health chatbots for behavior change: A
+mapping study,ΓÇ¥ Journal of medical systems, vol. 43, no. 5, p. 135, 2019.
+Authorized licensed use limited to: ANURAG GROUP OF INSTITUTIONS. Downloaded on August 06,2026 at 15:02:52 UTC from IEEE Xplore.  Restrictions apply. 
+

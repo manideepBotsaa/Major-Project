@@ -1,0 +1,593 @@
+[
+  {
+    "slug": "budget-as-a-decision",
+    "title": "A Budget Is a Decision, Not a Restriction",
+    "level": "beginner",
+    "summary": "Turn a budget from a list of limits into a short set of deliberate choices about what your money should do next.",
+    "minutes": 7,
+    "tags": [
+      "budgeting",
+      "cash flow",
+      "priorities"
+    ],
+    "sort_order": 10,
+    "content": "# A budget is a plan, not a punishment\n\nA budget answers one question: given the money that actually arrives, what have I decided to spend it on before it arrives? Most people do not have a spending problem so much as an ordering problem. Money is spent in the order that requests arrive, so the loudest requests win: rent, subscriptions, convenience, impulse. A budget changes the order. It puts the important but quiet items, such as savings and debt repayment, ahead of the loud ones.\n\nA useful budget is small. If it has forty lines you will not maintain it. Start with the three or four categories that contain most of your spending, plus one line for saving. Precision in the wrong places creates work without changing behaviour.\n\n# The 50/30/20 starting point\n\nA common starting point is 50% of take-home income for needs, 30% for wants, and 20% for saving and debt repayment. Treat it as a first draft, not a law. A person repaying a high-interest loan may need 30% in the saving-and-debt bucket. A person in an expensive city may need more than 50% for housing and transport. The value of the framework is that it forces a conversation about proportions instead of individual receipts.\n\nWhen the proportions do not fit, change the income, the fixed costs, or the expectation. Do not solve a structural shortfall by promising to spend less on food every month. That is not a budget; it is a recurring argument with yourself.\n\n# Budgeting with irregular income\n\nIf income arrives in uneven amounts, budget from a baseline rather than a best month. Estimate a conservative monthly income, build the plan on that number, and treat anything above it as a surplus with a pre-decided destination: emergency fund first, then goals. A buffer account that holds one month of essential expenses can smooth the timing problem between receiving money and needing it.\n\n# The one-number test\n\nAt any point in the month, ask: how much can I still spend today without breaking the plan? That number, sometimes called safe-to-spend, is more actionable than a percentage. It should fall as the month progresses and rise when a bill you reserved for is paid. If the number is negative, the plan needs a decision, not guilt.\n\n# Review, do not audit\n\nOnce a month, compare the plan with what happened. Look for one category to adjust and one behaviour to keep. A budget that is reviewed becomes a feedback loop. A budget that is only created becomes a document.",
+    "quiz": [
+      {
+        "prompt": "What is the main purpose of a budget?",
+        "options": [
+          "To restrict every category equally",
+          "To decide in advance what your money should do",
+          "To record every receipt perfectly",
+          "To maximise income"
+        ],
+        "correct_index": 1,
+        "explanation": "A budget is a decision about priorities and ordering, not a blanket restriction."
+      },
+      {
+        "prompt": "In the 50/30/20 starting point, what does the 20% represent?",
+        "options": [
+          "Rent and utilities",
+          "Discretionary entertainment",
+          "Saving and debt repayment",
+          "Taxes"
+        ],
+        "correct_index": 2,
+        "explanation": "The 20% bucket is for saving and debt repayment; needs and wants take 50% and 30%."
+      },
+      {
+        "prompt": "How should someone with irregular income build a monthly budget?",
+        "options": [
+          "Use the best month's income",
+          "Budget from a conservative baseline and direct surpluses deliberately",
+          "Avoid budgeting until income stabilises",
+          "Borrow to fill the gap every month"
+        ],
+        "correct_index": 1,
+        "explanation": "A conservative baseline prevents a good month from becoming a permanent spending expectation."
+      }
+    ]
+  },
+  {
+    "slug": "emergency-fund",
+    "title": "The Emergency Fund: Your Financial Airbag",
+    "level": "beginner",
+    "summary": "Why liquid cash for surprises is the foundation that makes every other plan possible, and how to size and hold it.",
+    "minutes": 6,
+    "tags": [
+      "emergency fund",
+      "liquidity",
+      "risk"
+    ],
+    "sort_order": 20,
+    "content": "# What the fund is for\n\nAn emergency fund is money set aside for events you cannot predict and cannot postpone: a medical bill, a sudden loss of income, a necessary repair, a family obligation. It is not a vacation fund, a shopping fund, or an investment. Its job is to keep a temporary shock from becoming a long-term debt.\n\nPeople often skip this step because it feels unproductive. Cash earns little and does not compound dramatically. But the relevant comparison is not cash versus equity. It is cash versus borrowing at 24% to 42% on a credit card when something goes wrong.\n\n# How much is enough\n\nA common target is three months of essential expenses. Six months is sturdier for variable income, a single-earner household, or a specialised job market. Essential means what you must pay to keep your life running: housing, food, utilities, transport, insurance, minimum debt payments. It does not include discretionary spending.\n\nIf three months feels impossible, start with one month, then one month plus one bill. A small fund that exists is more useful than a large target that is never started. Progress matters more than the final number.\n\n# Where to keep it\n\nThe fund should be liquid, stable, and separate from your everyday account. A savings account or a liquid mutual fund is typical. It should not be in equity, a locked deposit with penalties, or a crypto wallet. The point is certainty of value when you need it, not maximum return.\n\nSeparateness matters. If the emergency fund sits in the same account as spending money, it will be spent. A separate account with an automatic transfer on payday turns the fund from an intention into a system.\n\n# Rebuilding after use\n\nUsing the fund is not failure; that is what it is for. After a withdrawal, rebuild it before increasing discretionary spending. Treat the rebuild as a temporary budget priority, not a permanent lifestyle change. If you use the fund repeatedly for the same predictable expense, the real problem is the budget, not the emergency.\n\n# The first milestone\n\nThe first goal is not three months. It is enough to cover the largest plausible small shock without borrowing: often one month of essentials. Reaching that milestone changes how you feel about money, because it removes the low-level fear that one bad week can undo a year of progress.",
+    "quiz": [
+      {
+        "prompt": "What is an emergency fund for?",
+        "options": [
+          "Funding holidays",
+          "Covering unpredictable necessary expenses without borrowing",
+          "Earning the highest possible return",
+          "Paying regular monthly bills"
+        ],
+        "correct_index": 1,
+        "explanation": "The fund exists to absorb shocks so they do not become high-interest debt."
+      },
+      {
+        "prompt": "A common starting target for an emergency fund is:",
+        "options": [
+          "One week of income",
+          "Three to six months of essential expenses",
+          "Ten years of expenses",
+          "One month of discretionary spending"
+        ],
+        "correct_index": 1,
+        "explanation": "Three months is a common first target; six months suits variable income or dependants."
+      },
+      {
+        "prompt": "Where should emergency money be held?",
+        "options": [
+          "In equity funds for growth",
+          "In a liquid, stable, separate account",
+          "In a long-term fixed deposit with penalties",
+          "In the same account as everyday spending"
+        ],
+        "correct_index": 1,
+        "explanation": "Liquidity, stability, and separation are the key properties."
+      }
+    ]
+  },
+  {
+    "slug": "cash-flow-vs-income",
+    "title": "Income Is Not Cash Flow",
+    "level": "beginner",
+    "summary": "A high salary can coexist with negative cash flow. Learn to track the timing and direction of money, not just the size of the paycheque.",
+    "minutes": 6,
+    "tags": [
+      "cash flow",
+      "income",
+      "timing"
+    ],
+    "sort_order": 30,
+    "content": "# Two different questions\n\nIncome asks: how much money arrived? Cash flow asks: how much money stayed? A person earning a large salary can still end the month with nothing if fixed obligations and automatic spending absorb the inflow. A person earning less can build savings if the outflow is deliberate. Income is a capacity; cash flow is the result.\n\nThis distinction explains a common frustration. Raises often disappear within a few months because spending expands to match the new baseline. Without a decision about where the extra money goes, it gets allocated by default.\n\n# The timing problem\n\nCash flow is also a scheduling problem. A bill due on the 3rd and a salary that arrives on the 7th create a shortfall even when the month as a whole is positive. The fix is a buffer: enough cash to cover the largest gap between when money arrives and when it must leave. This is one reason an emergency fund and a cash-flow buffer overlap.\n\n# A simple monthly statement\n\nFor each month, compute three numbers: total income, total expenses, and the difference. Then split expenses into fixed (rent, insurance, subscriptions), variable essential (food, utilities, transport), and discretionary (eating out, shopping, entertainment). The split tells you which lever is available. Fixed costs are slow to change but powerful. Discretionary costs are fast to change but easy to underestimate.\n\n# Savings rate\n\nSavings rate is the share of income that is not spent: (income minus expenses) divided by income. It is more comparable across incomes than the absolute amount saved. A 10% savings rate is a reasonable first target for many people; 20% is stronger; very high rates usually require either a high income or a deliberately modest lifestyle.\n\n# Negative months are information\n\nA negative month is not a moral failure. It is a signal. Was it a one-off expense, a seasonal pattern, or a structural gap? One-off expenses should come from the emergency fund or a sinking fund. Seasonal patterns should be smoothed across the year. A structural gap requires a change in income, fixed costs, or expectations.\n\n# The habit that matters\n\nTrack the direction of money for three months before optimising anything. You cannot improve a number you do not measure, and most people are wrong about at least one large category. The goal of tracking is not a perfect ledger; it is a truthful picture.",
+    "quiz": [
+      {
+        "prompt": "What does cash flow measure that income does not?",
+        "options": [
+          "How much money arrived",
+          "How much money actually stayed after outflow",
+          "Your credit score",
+          "Your tax slab"
+        ],
+        "correct_index": 1,
+        "explanation": "Income is capacity; cash flow is the result after spending and obligations."
+      },
+      {
+        "prompt": "What is the simplest fix for a timing gap between bills and salary?",
+        "options": [
+          "Ignore the bill",
+          "Keep a cash buffer to cover the gap",
+          "Take a new credit card",
+          "Reduce your income"
+        ],
+        "correct_index": 1,
+        "explanation": "A buffer covers the period between when money arrives and when it must leave."
+      },
+      {
+        "prompt": "How is the savings rate calculated?",
+        "options": [
+          "Income divided by expenses",
+          "Expenses divided by income",
+          "(Income minus expenses) divided by income",
+          "Total savings divided by age"
+        ],
+        "correct_index": 2,
+        "explanation": "The savings rate expresses the unspent share of income as a percentage."
+      }
+    ]
+  },
+  {
+    "slug": "debt-and-interest",
+    "title": "Debt, Interest, and the Cost of Waiting",
+    "level": "beginner",
+    "summary": "How interest works against you, why minimum payments can be a trap, and how to choose a payoff strategy you will actually finish.",
+    "minutes": 8,
+    "tags": [
+      "debt",
+      "interest",
+      "credit card",
+      "loans"
+    ],
+    "sort_order": 40,
+    "content": "# Interest is rent on money\n\nWhen you borrow, you pay for the right to use someone else's money. The annual percentage rate, or APR, expresses that price per year, including many fees. A 36% APR on a credit card means roughly 3% per month on the outstanding balance. That is not a rounding error; it is a competing claim on every future rupee.\n\nA useful habit is to convert APR into a monthly cost. Multiply the balance by the APR and divide by twelve. A balance of 80,000 at 36% costs about 2,400 in interest per month if unpaid. That number is the real price of delay.\n\n# Why minimum payments feel manageable\n\nMinimum payments are designed to keep the account current, not to clear the balance quickly. When the minimum is close to the monthly interest, the principal barely moves. A loan can remain alive for years while the borrower makes every payment on time. The minimum is a floor, not a plan.\n\n# Avalanche and snowball\n\nThe avalanche method pays the highest APR first while making minimums on everything else. It minimises total interest and is usually the mathematically better choice. The snowball method pays the smallest balance first, regardless of rate. It produces quicker visible wins, which helps some people persist. The best method is the one you will continue; persistence beats a marginally optimal plan that is abandoned.\n\n# When to prioritise debt over investing\n\nThere is no universal rule, but a useful test is the guaranteed return. Paying off a 30% credit card is equivalent to earning a guaranteed 30% on that money, which is very hard to beat in the market. Paying off a 4% home loan is a different decision, because the guaranteed return is lower and the liquidity cost is higher. Keep an emergency buffer before aggressively prepaying, so that a shock does not send you back to the card.\n\n# Warning signs\n\nThree signals deserve attention: borrowing to pay another debt, using credit for recurring essentials, and paying only the minimum while continuing to spend. Each suggests that the cash flow, not just the debt, needs a plan.\n\n# A payoff plan in one page\n\nList every debt with balance, APR, and minimum payment. Compute the monthly interest on each. Choose a strategy, set an extra amount you can sustain, and write down the projected debt-free month. Then automate the payments. A plan you can see is easier to keep than a resolution you can only feel.",
+    "quiz": [
+      {
+        "prompt": "How can you estimate the monthly interest on a credit-card balance?",
+        "options": [
+          "Balance multiplied by APR",
+          "Balance multiplied by APR divided by 12",
+          "Balance divided by APR",
+          "APR divided by the balance"
+        ],
+        "correct_index": 1,
+        "explanation": "APR is an annual rate; dividing by twelve approximates the monthly cost."
+      },
+      {
+        "prompt": "Which debt payoff method targets the highest APR first?",
+        "options": [
+          "Snowball",
+          "Avalanche",
+          "Minimum-only",
+          "Consolidation"
+        ],
+        "correct_index": 1,
+        "explanation": "Avalanche minimises total interest by attacking the most expensive debt first."
+      },
+      {
+        "prompt": "Why can paying only the minimum be a trap?",
+        "options": [
+          "It always damages your credit score",
+          "The minimum may barely cover monthly interest",
+          "It is illegal",
+          "It automatically increases the APR"
+        ],
+        "correct_index": 1,
+        "explanation": "If the minimum is close to the interest charge, the principal barely falls."
+      }
+    ]
+  },
+  {
+    "slug": "credit-score",
+    "title": "Credit Scores Without the Mythology",
+    "level": "beginner",
+    "summary": "What actually moves a credit score, what does not, and how to build or repair one without expensive shortcuts.",
+    "minutes": 7,
+    "tags": [
+      "credit score",
+      "credit card",
+      "borrowing"
+    ],
+    "sort_order": 50,
+    "content": "# What a score is\n\nA credit score is a lender's estimate of how likely you are to repay borrowed money on time. It is not a measure of wealth, intelligence, or virtue. In India, scores are commonly issued by credit bureaus and used by lenders alongside income and other checks. The exact formula is proprietary, but the broad inputs are well known.\n\n# The inputs that matter\n\nPayment history is the largest factor. A single missed payment can linger for years. Credit utilisation, the share of your available credit that you use, is next. Using a large fraction of your limit signals dependence on credit even if you pay in full. The length of your credit history, the mix of loan types, and the number of recent applications also contribute.\n\nA practical target is to keep utilisation below 30% of the limit, and ideally below 10% before applying for a large loan. If you use a credit card for convenience, paying it in full each month avoids interest but does not erase the utilisation reported for that cycle.\n\n# What does not help\n\nChecking your own score does not lower it. Closing old cards can hurt by reducing available credit and shortening history. Paying a disputed item without verification may not remove a legitimate negative mark. Expensive \"score repair\" services cannot delete accurate information.\n\n# Building a score from zero\n\nIf you have no credit history, a secured credit card or a small credit-builder loan can establish a record. Use it for a small recurring expense, pay on time, and keep utilisation low. Do not borrow money you do not need merely to build a score; the interest and fees are real.\n\n# Repairing a damaged score\n\nStart with the report, not the score. Obtain your report, check for errors, and dispute inaccurate items in writing. Then set up automatic payments for at least the minimum on every account. Reducing utilisation and avoiding new applications for six to twelve months usually does more than any shortcut. Improvement is slow and then suddenly visible.\n\n# The deeper point\n\nA good score lowers the cost of borrowing, but it can also make borrowing too easy. The goal is not to maximise the score; it is to be able to borrow cheaply when borrowing genuinely improves your life, and to decline it when it does not.",
+    "quiz": [
+      {
+        "prompt": "What credit-utilisation level is often recommended?",
+        "options": [
+          "Below 30% of available credit",
+          "Exactly 100%",
+          "Above 80%",
+          "Utilisation has no effect"
+        ],
+        "correct_index": 0,
+        "explanation": "Lower utilisation signals less dependence on credit; below 30% is a common guideline."
+      },
+      {
+        "prompt": "Does checking your own credit score lower it?",
+        "options": [
+          "Yes, every check lowers it",
+          "No, checking your own score does not lower it",
+          "Only if you check more than once a year",
+          "Only for secured cards"
+        ],
+        "correct_index": 1,
+        "explanation": "Self-checks are typically soft enquiries and do not affect the score."
+      },
+      {
+        "prompt": "Why can closing an old credit card hurt your score?",
+        "options": [
+          "It reduces available credit and shortens history",
+          "It automatically creates a late payment",
+          "It changes your income",
+          "It cancels all your loans"
+        ],
+        "correct_index": 0,
+        "explanation": "Closing a card can raise utilisation and shorten the average account age."
+      }
+    ]
+  },
+  {
+    "slug": "goal-based-saving",
+    "title": "Save for Something, Not Just Against Everything",
+    "level": "intermediate",
+    "summary": "Turn vague saving intentions into named goals with amounts, dates, and automated contributions.",
+    "minutes": 7,
+    "tags": [
+      "goals",
+      "saving",
+      "planning"
+    ],
+    "sort_order": 60,
+    "content": "# Why named goals work\n\n\"Save more\" is not a goal; it is a direction. A named goal has an amount, a date, and a reason. \"Set aside 120,000 for a emergency fund by next March\" is a plan. The specificity does two things: it lets you calculate a monthly contribution, and it gives you a reason to decline a competing expense.\n\nGoals also reveal trade-offs. If you want a house down payment and a sabbatical in the same year, the required monthly contributions may exceed your capacity. Better to discover that now than to underfund both.\n\n# Separate the horizon from the vehicle\n\nShort goals, under three years, belong in stable instruments: savings accounts, short-term deposits, liquid funds. Medium goals, three to seven years, can tolerate some market volatility but not a lot. Long goals, over seven years, can use equity, because time gives the portfolio a chance to recover from drawdowns. The common mistake is putting a two-year goal in the stock market and being forced to sell at the wrong time.\n\n# Calculate the contribution\n\nFor a simple goal with no return, divide the remaining amount by the number of months. With an expected return, the required contribution is lower, but the estimate is uncertain. Use a conservative return assumption and revisit it annually. A plan that assumes 15% equity returns every year is not a plan; it is a hope with a spreadsheet.\n\n# Automate the decision\n\nThe most reliable savings plan removes the monthly decision. Set an automatic transfer on payday, before discretionary spending begins. If income is irregular, automate a baseline amount and add a percentage of any surplus. The point is to make saving the default rather than the leftover.\n\n# Protect the goal from yourself\n\nKeep goal money separate from spending money. Name the account after the goal. If the goal is long-term, resist the urge to check it daily; short-term volatility is noise relative to the horizon. If the goal is short-term, do not chase yield with money you will need soon.\n\n# Review without micromanaging\n\nCheck progress monthly, adjust contributions quarterly, and reassess the goal annually. If you are behind, you have three levers: contribute more, extend the date, or lower the target. Choosing one deliberately is better than quietly abandoning the goal.",
+    "quiz": [
+      {
+        "prompt": "What makes a savings goal actionable?",
+        "options": [
+          "A vague intention to save more",
+          "A named amount, date, and reason",
+          "A high return assumption",
+          "A new credit card"
+        ],
+        "correct_index": 1,
+        "explanation": "Specificity lets you calculate a contribution and evaluate trade-offs."
+      },
+      {
+        "prompt": "Where should money for a goal less than three years away generally be held?",
+        "options": [
+          "Stable, liquid instruments",
+          "Concentrated equity",
+          "Crypto",
+          "Long-dated illiquid assets"
+        ],
+        "correct_index": 0,
+        "explanation": "Short horizons need certainty of value, not maximum expected return."
+      },
+      {
+        "prompt": "If you are behind on a goal, what is the honest set of options?",
+        "options": [
+          "Ignore it and hope",
+          "Contribute more, extend the date, or lower the target",
+          "Borrow to fund it",
+          "Increase the assumed return"
+        ],
+        "correct_index": 1,
+        "explanation": "Choosing one lever deliberately is better than quietly abandoning the goal."
+      }
+    ]
+  },
+  {
+    "slug": "compounding",
+    "title": "Compounding: The Quiet Multiplier",
+    "level": "intermediate",
+    "summary": "How time and reinvested returns interact, why fees and taxes matter, and how to use the Rule of 72 without overpromising.",
+    "minutes": 7,
+    "tags": [
+      "compounding",
+      "investing",
+      "time"
+    ],
+    "sort_order": 70,
+    "content": "# Growth on growth\n\nCompounding is what happens when returns are earned not only on the original amount but also on previously earned returns. Invest 10,000 at 10% and you earn 1,000 in the first year. In the second year, you earn 10% on 11,000, or 1,100. The extra 100 is compounding. Over long periods, that small difference becomes the dominant part of the result.\n\nThis is why starting early matters more than starting large. A 25-year-old investing a modest amount for forty years can end up ahead of a 40-year-old investing a larger amount for twenty-five years, depending on returns. Time is the input that cannot be bought later.\n\n# The Rule of 72\n\nA useful approximation: divide 72 by the annual return to estimate the number of years it takes money to double. At 8%, about nine years. At 12%, about six years. The rule is rough, but it makes long horizons intuitive. It also shows why a 2% difference in return is not trivial over decades.\n\n# Frequency and consistency\n\nThe compounding frequency matters, but less than the annual return and the time horizon. More important is consistency. A monthly SIP keeps money invested through ups and downs and removes the temptation to time the market. It does not guarantee a profit; it guarantees a process.\n\n# Costs and taxes are negative compounding\n\nA 1.5% annual fee on a portfolio sounds small, but it compounds against you. Over thirty years, the difference between a 1.5% fee and a 0.2% fee can be a large fraction of the final corpus. Taxes have a similar effect: realised gains may be taxed, and frequent trading can convert a long-term advantage into a short-term one. Understand the tax treatment of your investments before optimising returns.\n\n# Volatility is not the same as loss\n\nA portfolio can fall 20% in a year and still be appropriate for a thirty-year goal. The risk is not the temporary decline; it is selling during the decline. This is why the horizon and the vehicle must match. Money needed soon should not be exposed to assets that can fall sharply.\n\n# A realistic expectation\n\nEquity has historically delivered strong long-run returns in many markets, but the path is uneven and the future is not guaranteed. Use conservative assumptions, diversify, keep costs low, and let time do the work. Compounding rewards patience more than cleverness.",
+    "quiz": [
+      {
+        "prompt": "What does the Rule of 72 estimate?",
+        "options": [
+          "The tax rate on gains",
+          "The years for money to double at a given return",
+          "The inflation rate",
+          "The optimal savings rate"
+        ],
+        "correct_index": 1,
+        "explanation": "Divide 72 by the annual return percentage to approximate the doubling time."
+      },
+      {
+        "prompt": "Why do fees matter so much over long periods?",
+        "options": [
+          "They are charged only once",
+          "They compound against you every year",
+          "They are tax-deductible",
+          "They increase returns"
+        ],
+        "correct_index": 1,
+        "explanation": "A recurring fee reduces the base on which future returns are earned."
+      },
+      {
+        "prompt": "What is the main risk for a long-horizon investor?",
+        "options": [
+          "Temporary volatility itself",
+          "Selling during a decline",
+          "Missing a single day of gains",
+          "Owning a diversified fund"
+        ],
+        "correct_index": 1,
+        "explanation": "Volatility is tolerable if the horizon is long; panic-selling converts it into a permanent loss."
+      }
+    ]
+  },
+  {
+    "slug": "inflation",
+    "title": "Inflation: The Return You Do Not See",
+    "level": "intermediate",
+    "summary": "Why a rising number in your account can still mean less purchasing power, and how to think in real terms.",
+    "minutes": 6,
+    "tags": [
+      "inflation",
+      "real return",
+      "purchasing power"
+    ],
+    "sort_order": 80,
+    "content": "# The silent tax\n\nInflation is the rate at which the general price level rises. If your savings earn 4% and prices rise 5%, your money has lost about 1% of purchasing power. The account balance is higher, but the basket of goods it can buy is smaller. This is why comparing a return with zero is misleading; the relevant comparison is with inflation.\n\nThe real return is approximately the nominal return minus inflation. For larger rates, use the precise formula: (1 + nominal) / (1 + inflation) - 1. At 8% nominal and 5% inflation, the real return is about 2.9%, not 3%.\n\n# Your personal inflation\n\nHeadline inflation is an average across a basket that may not match your life. If you spend a large share on rent, education, or healthcare, your personal inflation may be higher than the official number. Build your own rough index by tracking the prices of the five things you spend the most on.\n\n# What it means for goals\n\nA goal stated in today's money needs to be adjusted for the future cost. A 1,000,000 retirement target today may need substantially more in twenty years. Financial projections should either use real returns and today's money, or nominal returns and inflated targets. Mixing the two is a common source of false confidence.\n\n# What it means for cash\n\nCash is useful for liquidity and emergencies, but it is not a long-term growth asset. Holding years of expenses in cash feels safe, but it guarantees a slow loss of purchasing power. The right amount of cash is the amount you need for near-term certainty, not the amount that makes you feel unafraid.\n\n# Salary and inflation\n\nIf your income grows slower than inflation, your real income falls even if the number on your payslip rises. Negotiating a raise is not only about fairness; it is about maintaining purchasing power. The same logic applies to long-term contracts and fixed pensions.\n\n# The practical rule\n\nWhen someone quotes a return, ask: real or nominal? When you set a goal, ask: today's rupees or future rupees? When you hold cash, ask: is this for safety or for growth? The answers prevent a lot of quiet mistakes.",
+    "quiz": [
+      {
+        "prompt": "If savings earn 4% and inflation is 5%, what happens to purchasing power?",
+        "options": [
+          "It rises by 9%",
+          "It falls by about 1%",
+          "It stays the same",
+          "It rises by 1%"
+        ],
+        "correct_index": 1,
+        "explanation": "The real return is approximately nominal minus inflation, here about -1%."
+      },
+      {
+        "prompt": "Why is holding years of expenses in cash risky?",
+        "options": [
+          "Cash can be stolen",
+          "It slowly loses purchasing power to inflation",
+          "It earns too much interest",
+          "It is illiquid"
+        ],
+        "correct_index": 1,
+        "explanation": "Cash is useful for certainty, but it is not a long-term growth asset."
+      },
+      {
+        "prompt": "When setting a long-term goal, what should you be clear about?",
+        "options": [
+          "Whether the amount is in today's rupees or future rupees",
+          "The colour of the spreadsheet",
+          "The bank's logo",
+          "The number of accounts"
+        ],
+        "correct_index": 0,
+        "explanation": "Mixing real and nominal amounts is a common source of false confidence."
+      }
+    ]
+  },
+  {
+    "slug": "insurance",
+    "title": "Insurance: Buy Protection, Not Products",
+    "level": "intermediate",
+    "summary": "How to use insurance to transfer catastrophic risk without confusing it with investment.",
+    "minutes": 7,
+    "tags": [
+      "insurance",
+      "risk",
+      "health",
+      "term life"
+    ],
+    "sort_order": 90,
+    "content": "# The purpose of insurance\n\nInsurance transfers a low-probability, high-cost risk to an insurer in exchange for a regular premium. It works best when the loss would be financially devastating and the event is unpredictable. It works poorly when the loss is small, certain, or easily budgeted.\n\nThis is why buying insurance on a phone or a laptop is usually a bad deal: the loss is affordable, and the premium is priced to cover the insurer's costs and profit. Buying health cover for a hospitalisation that could cost several months of income is a different calculation.\n\n# Term life versus investment-linked products\n\nTerm life insurance pays a lump sum if the insured person dies during the policy term. It has no maturity value, which is why it is inexpensive relative to the cover. Investment-linked and endowment policies combine insurance with saving; the insurance component is often expensive and the investment component is often opaque. For most people, buying term cover and investing the difference separately is clearer and more flexible.\n\n# Health insurance\n\nAdequate health cover is one of the highest-value financial decisions you can make. Look at the sum insured, room-rent limits, waiting periods, exclusions, and network hospitals. A policy that looks cheap can be expensive at the point of claim. Employer cover is useful but not portable; a personal policy protects you between jobs.\n\n# How much cover\n\nFor term life, a common starting point is ten to fifteen times annual income, adjusted for debts, dependants, and future expenses. For health, a cover that reflects the cost of treatment in your city is more useful than a round number. Review both as your life changes.\n\n# What not to insure\n\nDo not insure small, predictable expenses. Do not use insurance as an investment. Do not hide information on an application; it can void the claim. Do not buy a product you do not understand because a relative recommended it.\n\n# The test\n\nThe question is not \"is this a good product?\" It is \"what specific catastrophic risk does this transfer, and what would I do without it?\" If you cannot answer both, the product is probably solving the wrong problem.",
+    "quiz": [
+      {
+        "prompt": "What is the core purpose of insurance?",
+        "options": [
+          "To earn high returns",
+          "To transfer a low-probability, high-cost risk",
+          "To avoid all financial loss",
+          "To replace a budget"
+        ],
+        "correct_index": 1,
+        "explanation": "Insurance is most useful when a loss would be financially devastating and is unpredictable."
+      },
+      {
+        "prompt": "Why is term life often clearer than an investment-linked policy?",
+        "options": [
+          "It has no insurance component",
+          "It separates inexpensive protection from investing",
+          "It guarantees higher returns",
+          "It cannot be cancelled"
+        ],
+        "correct_index": 1,
+        "explanation": "Term cover is relatively inexpensive; investing the difference separately is more transparent."
+      },
+      {
+        "prompt": "Which risk is usually a poor fit for insurance?",
+        "options": [
+          "A hospitalisation that could cost months of income",
+          "Death of a breadwinner",
+          "A small, predictable phone repair",
+          "A major health diagnosis"
+        ],
+        "correct_index": 2,
+        "explanation": "Small predictable expenses are better handled by a budget or sinking fund."
+      }
+    ]
+  },
+  {
+    "slug": "investing-basics",
+    "title": "Investing Basics: Risk, Return, and Diversification",
+    "level": "intermediate",
+    "summary": "A plain-language map of asset classes, diversification, index funds, and the behaviour that decides most outcomes.",
+    "minutes": 8,
+    "tags": [
+      "investing",
+      "diversification",
+      "index funds",
+      "risk"
+    ],
+    "sort_order": 100,
+    "content": "# Investing is not guessing\n\nInvesting is the process of putting money to work in productive assets with the expectation of a return. Speculating is betting on a short-term price move. The two can look similar in a chart, but they differ in time horizon, evidence, and process. For most people, a diversified, low-cost, long-term approach is more reliable than picking individual securities.\n\n# Asset classes\n\nCash and deposits offer stability and liquidity with low returns. Bonds are loans to governments or companies; they pay interest and carry credit and interest-rate risk. Equity represents ownership in businesses; it has higher expected returns and higher volatility. Real estate, gold, and other assets have their own risk and return profiles. Each asset class does something different in a portfolio; none is universally best.\n\n# Diversification\n\nDiversification spreads money across assets, sectors, and geographies so that one failure does not sink the whole portfolio. It does not eliminate risk; it reduces concentration risk. Owning ten stocks in the same industry is not diversification. Owning a broad index fund is a simple way to get exposure to many businesses at once.\n\n# Index funds and costs\n\nAn index fund tracks a market index rather than trying to beat it. Because it does not require active research, it usually costs less. Over long periods, costs and taxes can make a larger difference than small differences in return. A low-cost, broad, diversified fund is a reasonable default for many investors, though the right choice depends on goals and taxes.\n\n# Risk tolerance is not just a questionnaire\n\nRisk tolerance has two parts: the ability to take risk, which is financial and depends on horizon and obligations, and the willingness to take risk, which is emotional. A young person with a stable income and a long horizon may have high ability but low willingness. A portfolio that keeps them invested is better than one that is theoretically optimal and abandoned in a downturn.\n\n# SIP and lump sum\n\nA systematic investment plan invests a fixed amount at regular intervals. It removes timing decisions and builds discipline. A lump sum invested at once has historically had a higher expected return in rising markets, but the difference is less important than starting and staying invested. Choose the method that matches your cash flow and temperament.\n\n# The boring conclusion\n\nThe main drivers of long-term outcomes are how much you save, how long you stay invested, how much you pay in costs and taxes, and whether you panic. Stock selection is a smaller part of the story than the industry suggests.",
+    "quiz": [
+      {
+        "prompt": "What does diversification primarily reduce?",
+        "options": [
+          "All risk",
+          "Concentration risk",
+          "Taxes",
+          "Inflation"
+        ],
+        "correct_index": 1,
+        "explanation": "Diversification spreads exposure but cannot eliminate market risk."
+      },
+      {
+        "prompt": "Why are broad index funds popular with long-term investors?",
+        "options": [
+          "They guarantee profits",
+          "They offer diversified exposure at low cost",
+          "They never fall",
+          "They avoid taxes"
+        ],
+        "correct_index": 1,
+        "explanation": "Low costs and broad exposure make them a simple default for many investors."
+      },
+      {
+        "prompt": "Risk tolerance has two parts: ability and what else?",
+        "options": [
+          "Willingness",
+          "Age",
+          "Salary",
+          "Credit score"
+        ],
+        "correct_index": 0,
+        "explanation": "Ability is financial; willingness is emotional. A suitable portfolio respects both."
+      }
+    ]
+  },
+  {
+    "slug": "tax-basics-india",
+    "title": "Income Tax Basics for Indian Earners",
+    "level": "advanced",
+    "summary": "A conceptual overview of slabs, deductions, capital gains, and record-keeping. Verify current rules before filing.",
+    "minutes": 8,
+    "tags": [
+      "tax",
+      "India",
+      "compliance"
+    ],
+    "sort_order": 110,
+    "content": "# Tax is a system, not a single number\n\nIncome tax is calculated on taxable income, which is not the same as gross salary. Certain allowances, deductions, and exemptions reduce taxable income. The remaining amount is taxed in slabs: different portions of income are taxed at different rates. The result is not a flat percentage of your salary. A person in a higher slab does not pay that rate on all income; only the portion above the threshold is taxed at the higher rate.\n\nThis is a common source of confusion. A raise that moves you into a higher slab does not reduce your take-home pay. It increases the tax on the additional income, not on the whole amount.\n\n# Choosing a regime\n\nIndia offers a choice between tax regimes with different slab structures and deductions. The right choice depends on your income, deductions, and investments. A salaried person with significant deductions may benefit from one regime; a person with few deductions may benefit from the other. The comparison should be done with actual numbers, not rules of thumb. Rules change; verify the current year's provisions.\n\n# Deductions and exemptions\n\nCommon deductions include contributions to retirement accounts, health insurance premiums, home-loan interest, and certain education loans, subject to limits and conditions. Not every investment is tax-efficient, and not every tax-saving product is a good investment. Do not let the tax tail wag the investment dog: a poor product with a tax benefit can still lose more than the tax saved.\n\n# Capital gains\n\nProfits from selling investments are taxed under capital-gains rules that depend on the asset, the holding period, and the amount. Equity, debt, and real estate can be treated differently. Holding periods and exemptions change with policy. Keep records of purchase dates, costs, and sale proceeds; without them, you may pay more tax than necessary or face a difficult assessment.\n\n# TDS and filing\n\nTax deducted at source is a prepayment, not a final settlement. If too much was deducted, a return can claim a refund; if too little, additional tax may be due. Filing a return is also a record of income that supports loan applications and visa processes.\n\n# Record-keeping\n\nKeep salary slips, bank statements, investment statements, rent receipts, and proof of deductions in one place. A simple folder, digital or physical, saves hours at filing time. If your affairs are complex, pay a qualified professional; the cost is often less than the mistakes.\n\n# The honest caveat\n\nTax law changes. This module explains concepts, not the current statute. Before acting, check the latest rules or consult a chartered accountant.",
+    "quiz": [
+      {
+        "prompt": "How do income-tax slabs work?",
+        "options": [
+          "Every rupee is taxed at your highest rate",
+          "Only the income above each threshold is taxed at the higher rate",
+          "All income is taxed at a flat rate",
+          "Slabs apply only to investments"
+        ],
+        "correct_index": 1,
+        "explanation": "Slab rates apply to portions of income, so a raise cannot reduce your take-home pay."
+      },
+      {
+        "prompt": "What is tax deducted at source (TDS)?",
+        "options": [
+          "A final tax that cannot be adjusted",
+          "A prepayment of tax that is reconciled when you file",
+          "A penalty",
+          "An investment"
+        ],
+        "correct_index": 1,
+        "explanation": "TDS is withheld during the year and reconciled against your final liability."
+      },
+      {
+        "prompt": "Why should you verify tax rules before acting?",
+        "options": [
+          "Rules change and this module is conceptual",
+          "Taxes are optional",
+          "Only accountants pay tax",
+          "The rules are secret"
+        ],
+        "correct_index": 0,
+        "explanation": "Tax law changes; always check the current provisions or consult a professional."
+      }
+    ]
+  },
+  {
+    "slug": "behavioural-finance",
+    "title": "Behavioural Finance: Why Smart People Make Money Mistakes",
+    "level": "advanced",
+    "summary": "The biases that show up in everyday money decisions, and the design tricks that make better behaviour easier.",
+    "minutes": 8,
+    "tags": [
+      "behavioural finance",
+      "biases",
+      "nudges"
+    ],
+    "sort_order": 120,
+    "content": "# The rational-agent fiction\n\nClassical finance assumes people weigh all available information and choose the option that maximises expected utility. Real people use shortcuts, emotions, and social cues. Behavioural finance studies those patterns. The point is not to call people irrational; it is to understand which mistakes are predictable and how to design around them.\n\n# Present bias\n\nPresent bias is the tendency to overvalue immediate rewards relative to future ones. It explains why saving feels harder than spending even when the future benefit is larger. The fix is not more willpower; it is pre-commitment. Automating a transfer on payday moves the decision to a moment when the future self has more influence.\n\n# Mental accounting\n\nPeople put money into separate mental buckets: salary, bonus, tax refund, \"fun money\". The buckets are not financially real, but they change behaviour. A tax refund may be spent more freely than salary of the same size. Recognising the bucket lets you decide whether the label is helping or hurting.\n\n# Anchoring\n\nAnchoring is over-relying on an initial number. A product marked down from an inflated price feels like a bargain. A salary offer anchored by the first number tends to stay near it. In investing, an anchor to a past price can make someone hold a losing position or sell a winner too early. Asking \"what would I pay for this if I had no prior number?\" can break the anchor.\n\n# Loss aversion\n\nLosses feel roughly twice as painful as equivalent gains feel good. This can make people hold losing investments too long, avoid necessary risk, or over-insure small losses. It also explains why a market decline feels like an emergency even when the long-term plan is unchanged.\n\n# Social proof and herding\n\nPeople copy the behaviour of those around them, especially under uncertainty. A hot investment recommended by friends can feel safer than it is. A spending norm in a social group can quietly reset your baseline. Noticing the norm is the first step to choosing it deliberately.\n\n# Nudges and choice architecture\n\nA nudge changes the presentation of choices without removing options. Automatic enrolment in a retirement plan, a default savings rate, or a timely reminder before a subscription renews are all nudges. They are not manipulation if they are transparent and serve the person's own stated goal. The ethical test is whether the nudge helps the user do what they already want to do.\n\n# Designing for your future self\n\nThe most effective financial systems make the good behaviour easy and the bad behaviour slightly harder. Remove saved card details for discretionary sites. Automate saving. Put the emergency fund in a separate account. Schedule a monthly review. You are not fixing your character; you are changing the defaults.",
+    "quiz": [
+      {
+        "prompt": "What is present bias?",
+        "options": [
+          "Preferring immediate rewards over larger future ones",
+          "Believing the present is worse than the past",
+          "Avoiding all decisions",
+          "Overestimating inflation"
+        ],
+        "correct_index": 0,
+        "explanation": "Present bias makes saving feel costly now even when the future benefit is larger."
+      },
+      {
+        "prompt": "Which design is a good response to present bias?",
+        "options": [
+          "Decide to try harder next month",
+          "Automate saving on payday",
+          "Keep cash in a spending account",
+          "Check prices daily"
+        ],
+        "correct_index": 1,
+        "explanation": "Pre-commitment moves the decision to a moment when the future self has more influence."
+      },
+      {
+        "prompt": "What makes a nudge ethically acceptable?",
+        "options": [
+          "It is hidden from the user",
+          "It removes all choices",
+          "It is transparent and helps the user's own stated goal",
+          "It maximises the company's revenue"
+        ],
+        "correct_index": 2,
+        "explanation": "Transparency and alignment with the user's goals distinguish a nudge from manipulation."
+      }
+    ]
+  }
+]
